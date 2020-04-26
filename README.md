@@ -16,3 +16,7 @@ If you see the parameter "text" it is text when it is "numbers" it is a number.
 - Added inputSTR function
 - Added inputINT function
 - Added numbers function
+
+# PatchNote dev for 0.2
+- Fixed bug for LWhile function
+- Fixed bug inputSTR function
