@@ -10,13 +10,13 @@ When you see a "print" parameter in the function it's either true or false,
 If you put true in a "print" parameter it will display in the output the response of the function,
 If you see the parameter "text" it is text when it is "numbers" it is a number.
 
-# 0.1
+# 0.1 (released)
 - Added print function
 - Added LWhile function
 - Added inputSTR function
 - Added inputINT function
 - Added numbers function
 
-# PatchNote dev for 0.2
+# 0.2 (Not released)
 - Fixed bug for LWhile function
 - Fixed bug inputSTR function
