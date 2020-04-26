@@ -7,8 +7,8 @@ create a class in your package and type: lua. if it shows lots of options you ar
 
 Other informations :
 When you see a "print" parameter in the function it's either true or false,
-If you put true in a "print" parameter it will display in the output the response of the function
-
+If you put true in a "print" parameter it will display in the output the response of the function,
+If you see the parameter "text" it is text when it is "numbers" it is a number.
 
 # 0.1
 - Added print function
