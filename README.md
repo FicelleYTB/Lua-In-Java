@@ -17,7 +17,7 @@ If you see the parameter "text" it is text when it is "numbers" it is a number.
 - Added inputINT function
 - Added numbers function
 
-# 0.2 (Not released)
+# 0.2 (released)
 - Fixed bug for LWhile function
 - Fixed bug inputSTR function
 - Added random function
