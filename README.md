@@ -21,3 +21,6 @@ If you see the parameter "text" it is text when it is "numbers" it is a number.
 - Fixed bug for LWhile function
 - Fixed bug inputSTR function
 - Added random function
+
+# 0.3 (Not released)
+- Renamed LWhile function to > repeat
