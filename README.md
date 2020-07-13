@@ -29,3 +29,4 @@ If you see the parameter "text" it is text when it is "numbers" it is a number.
 
 # 0.4 (not released)
 - Added text function
+- Added sendpacket
