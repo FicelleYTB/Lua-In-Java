@@ -26,3 +26,6 @@ If you see the parameter "text" it is text when it is "numbers" it is a number.
 - Renamed LWhile function to > repeat
 - Added error function (for print lua error)
 - Added wait function
+
+# 0.4 (not released)
+- Added text function
