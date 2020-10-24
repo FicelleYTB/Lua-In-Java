@@ -1,6 +1,10 @@
 package fr.ficelleytb.lua;
 
-import java.util.*;
+import java.io.IOException;
+import java.net.URL;
+import java.net.URLConnection;
+import java.util.Random;
+import java.util.Scanner;
 
 public class lua {
 
@@ -68,6 +72,35 @@ public class lua {
 	public static int wait(int numbers) throws InterruptedException {
 		Thread.sleep(numbers);
 		return numbers;
+	}
+	
+	public static String text(String text) {
+		System.out.println(text);
+		return text;
+	}
+	
+	public static void sendpacket(String link, boolean date, boolean getPermission,  boolean print) {
+		
+		try {
+			URL url;
+			url = new URL(link);
+			URLConnection urlconnect = url.openConnection();
+			
+			if(print == true) {
+			System.out.println("Packet send !");
+			}
+			
+			if(date == true) {
+				System.out.println(urlconnect.getDate());
+			}
+			
+			if(getPermission == true) {
+				System.out.println(urlconnect.getPermission());
+			}
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 	
 
