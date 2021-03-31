@@ -31,4 +31,4 @@ If you see the parameter "text" it is text when it is "numbers" it is a number.
 - Added text function
 - Added sendpacket
 
-# Its a old project!
+# Its an old project!
