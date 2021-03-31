@@ -30,3 +30,5 @@ If you see the parameter "text" it is text when it is "numbers" it is a number.
 # 0.4 (released)
 - Added text function
 - Added sendpacket
+
+# Its a old project!
